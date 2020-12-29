@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Register";
+}
+
+<h2>Register</h2>
+<form method="post">
+    <div>
+        用户名：<input type="text" name="Name"/>
+    </div>
+    <div>
+        密码：<input type="password" name="PassWord" />
+    </div>
+    <div>
+        <input type="submit" value="注册"  />
+    </div>
+    <div style="color:red">@ViewBag.msg</div>    
+</form>
